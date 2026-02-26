@@ -1,0 +1,18 @@
+name: PlotArmor
+version: '${project.version}'
+main: com.starry.plotarmor.PlotArmor
+api-version: '1.21'
+author: Starry
+description: Cant kill plot relevancy
+
+commands:
+  plotarmor:
+    description: Manage plot armor protected players
+    usage: /plotarmor <add|remove|list> [player]
+    permission: plotarmor.admin
+    aliases: [pa]
+
+permissions:
+  plotarmor.admin:
+    description: Allows managing the plot armor list
+    default: op

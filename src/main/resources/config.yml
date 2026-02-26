@@ -1,0 +1,3 @@
+# Plot Armor Configuration
+# Players added via /plotarmor add will be saved here by UUID.
+protected-players: []

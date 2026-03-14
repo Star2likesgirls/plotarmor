@@ -30,13 +30,4 @@ If you're using a permissions plugin, give administrators the permission below.
 | ----------------- | ----------------------------------- | ------- |
 | `plotarmor.admin` | Allows managing the plot armor list | OP      |
 
----
 
-## Permission Node (plugin.yml)
-
-```yaml
-permissions:
-  plotarmor.admin:
-    description: Allows managing the plot armor list
-    default: op
-```
